@@ -25,6 +25,7 @@ Resposta: HTTP 204
 
 
 #Listagem de informações coletadas disponives em:<br />
+http://localhost:8000/person/<br />
 http://localhost:800/graph<br />
 {<br />
       "name": "Ricardo Kamada",<br />
