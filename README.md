@@ -15,12 +15,12 @@ requests==2.9.1 <br />
 wheel==0.26.0 <br />
 
 #Exemplo de envio de dados 
-curl --dump-header - -H "Content-Type: application/json" -X POST --data '{"facebookID": "12232344232", "name": "julio", "username": "julim001", "gender": "male"}' http://localhost:8000/person/
+curl --dump-header - -H "Content-Type: application/json" -X POST --data '{"facebookID": "12232344232", "name": "julio", "username": "julim001", "gender": "male"}' http://localhost:8000/person/<br />
 Resposta: HTTP 201 
 
 
 #Exclusão de dados  
-curl -i -H "Accept: application/json" -X DELETE http://localhost:8000/person/7/
+curl -i -H "Accept: application/json" -X DELETE http://localhost:8000/person/7/<br />
 Resposta: HTTP 204
 
 
