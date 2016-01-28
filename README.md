@@ -3,7 +3,7 @@
 Teste para um job
 
 #
-Instalar as dependências via pip
+Instalar as dependências via 
 pip install -r requeriments.txt
 
 #Exemplo de envio de dados 
