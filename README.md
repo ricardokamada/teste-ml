@@ -16,9 +16,10 @@ curl -i -H "Accept: application/json" -X DELETE http://localhost:8000/person/7/
 Resposta: HTTP 204
 
 
-#Listagem de informações coletadas disponives em http://localhost:800/graph
-{
-  "name": "Ricardo Kamada",
-  "id": "675091159240511"
+#Listagem de informações coletadas disponives em:
+http://localhost:800/graph
+{__
+  "name": "Ricardo Kamada",__
+  "id": "675091159240511"__
 }
 
